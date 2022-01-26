@@ -1,3 +1,15 @@
+#Project Requirements
+1. A minimum of 4 unique components
+2. Must have a header and footer components
+3. 2 components must use classes
+4. 2 components must use functions
+5. All components must be located in the components directory
+6. All component names must begin with an uppercase letter
+7. Single page website must be responsive
+8. Footer component must be at the bottom of the page
+9. Must use real content (lorem ipsum is not allowed)
+10. Content must be original
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

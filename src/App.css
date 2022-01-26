@@ -1,38 +1,212 @@
-.App {
-  text-align: center;
+/* Removing global margin */
+body {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*smooth scroll*/
+html {
+  scroll-behavior: smooth;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*common class*/
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+/*header*/
+.header-section {
+  width: 50%;
+  padding: 20px 20px 0 20px;
+}
+
+nav ul {
+  padding-top: 12px;
+  font-family: 'Raleway', sans-serif;
+  list-style: none;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #437F73;
+  font-weight: bold;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+
+nav ul li a:hover {
+  color: #437f73;
+}
+
+.logotype {
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+#name-block {
+  display: inline-block;
+  text-align: right;
+  width: 155px;
+}
+
+.name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-align: left;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.occupation {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  margin-top: -3px;
+}
+.specification {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  margin-top: -14px;
+}
+
+#humber-logo {
+  float: right;
+  margin-right: 50px;
+}
+
+/*home page*/
+.welcome-screen {
+  max-width: 100%;
+  margin: auto;
+}
+
+
+/*about me page*/
+.content {
+  width: 50%;
+  margin-left: 55px;
+  margin-top: 55px;
+}
+
+aside {
+  margin-bottom: -4px;
+}
+
+.about-me {
+  font-family: 'Noto Serif SC', serif;
+  color: black;
+  font-size: 20px;
+  margin: 30px;
+  padding-top: 40px;
+  text-decoration: none;
+}
+
+/*works page*/
+.example-container {
+  background-color: #e8e8e8;
+}
+.second-paragraph-container{
+  margin-top: 6px;
+}
+
+.works-title {
+  height: 100px;
+  width: 60%;
+  background-color: #2b2b2c;
+}
+.work-sibling {
+  height: 100px;
+  width: 40%;
+  background-color: #ffce3b;
+}
+.works-title h2 {
+  margin-left: 80px;
+  margin-top: 40px;
+  color: azure;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+.second-paragraph-wrapper {
+  height: 320px;
+  width: 743px;
+  margin-right: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #2b2b2c;
+  color: azure;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+.second-paragraph {
+  padding-top: 90px;
+  padding-left: 80px;
+}
+.second-paragraph strong {
+  color: #ffce3b;
+}
+
+/*contacts page*/
+
+iframe{
+  width: 50%;
+  margin-top: 3%;
+  margin-bottom: 70px;
+}
+form{
+  width: 45%;
+  font-size: 150%;
+  margin-left: 5%;
+  margin-top: 3%;
+
+}
+
+input, textarea{
+  display: block;
+  width: 70%;
+  margin: 10px 0 25px 0;
+  font-size: 60%;
+}
+input[type=submit]{
+  width: 150px;
+  font-size: 70%;
+  border-radius: 4px;
+  background-color: #61b1a3;
+  transition: 1s;
   color: white;
+  text-transform: uppercase;
+}
+input[type=submit]:hover{
+  background-color: #437f73
+}
+/*Footer*/
+footer {
+  height: 100px;
+  line-height: 100px;
+  background-color: #e8e8e8;
+  padding-left: 80px;
+  text-transform: uppercase;
+  color: #2b2b2c;
 }
 
-.App-link {
-  color: #61dafb;
+#footer-contacts {
+  margin: 0;
+  display: inline-block;
+  padding-right: 30%;
+  font-family: 'Raleway', sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-media a{
+  text-decoration: none;
+}
+.social-media img{
+  width: 40px;
+  margin-right: 50px;
+  float: right;
+  margin-top: 30px;
 }
