@@ -23,3 +23,14 @@ footer {
   float: right;
   margin-top: 30px;
 }
+
+@media screen and (max-width: 900px) {
+  #footer-contacts {
+    display: none;
+  }
+
+  footer {
+    background: none;
+    padding-left: 10px;
+  }
+}
