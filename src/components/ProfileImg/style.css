@@ -1,0 +1,5 @@
+.profile-img {
+  max-width: 100%;
+  object-fit: contain;
+  padding-left: 30px;
+}
