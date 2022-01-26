@@ -1,6 +1,7 @@
 import React from 'react';
 import logotype from '../../img/o_h_logo.png';
 import humberLogo from '../../img/humber_logo.png';
+import './style.css'
 
 class Header extends React.Component {
   render() {

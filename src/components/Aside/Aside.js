@@ -1,4 +1,5 @@
 import helloImg from '../../img/hello_img.png';
+import './style.css'
 
 function Aside() {
   return (

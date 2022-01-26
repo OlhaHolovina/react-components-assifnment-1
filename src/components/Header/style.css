@@ -1,0 +1,41 @@
+.header-section {
+  width: 50%;
+  padding: 20px 20px 0 20px;
+}
+
+.logotype {
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+#name-block {
+  display: inline-block;
+  text-align: right;
+  width: 155px;
+}
+
+.name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-align: left;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.occupation {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  margin-top: -3px;
+}
+.specification {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  margin-top: -14px;
+}
+
+#humber-logo {
+  float: right;
+  margin-right: 50px;
+}
