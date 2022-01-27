@@ -9,10 +9,11 @@ function Aside() {
       </section>
 
       <p className="about-me">
-        I have been working in the graphic design industry for many years. My path in graphic design has started
-        about 14 years ago, and from the very beginning I have realized that this is what I love and what I want to
-        do.
-        The graphic design is my job and my passion.
+        I’m a graphic designer with more than 10 years of experience in branding, packaging, publication design,
+        UI/UX and web design. I specialise as a conceptual designer and worked with numerous small and large
+        businesses and projects. I’ve a vibrant and bold approach to design.
+        I like to create brands and web solutions filled with individuality and personality,
+        with expressive typography, composition and confident colour palettes.
       </p>
     </section>
   );
