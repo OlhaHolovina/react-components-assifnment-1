@@ -1,11 +1,17 @@
+aside {
+  background: #FFCE3B;
+  width: 50%;
+}
+
 .profile-img {
-  max-width: 100%;
+  width: 466px;
+  height: 456px;
   object-fit: contain;
-  padding-left: 30px;
+  margin-top: -2px;
 }
 
 @media screen and (max-width: 900px) {
-  .profile-img {
+  aside {
     display: none;
   }
 }
