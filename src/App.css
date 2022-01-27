@@ -54,8 +54,8 @@ html {
   font-weight: bold;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   .block {
-    width: 500px;
+    width: 400px;
   }
 }
