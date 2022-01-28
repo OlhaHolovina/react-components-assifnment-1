@@ -1,11 +1,11 @@
 import './style.css'
 
-function Block({imgSrc, className}) {
+function Block({imgSrc, className, title}) {
   return (
     <section className={`block ${className}`}>
       <p className="block-header">
         <span className='block-header-line'> </span>
-        <span className='block-header-title'>articles</span>
+        <span className='block-header-title'>{title}</span>
       </p>
       <img src={imgSrc} alt="typography example"/>
     </section>

@@ -16,13 +16,11 @@ html {
   display: flex;
 }
 
-/*blocks*/
+/*Block*/
 .blocks-wrapper {
   margin-top: 30px;
   display: flex;
   align-content: space-between;
   flex-wrap: wrap;
-  row-gap: 10px;
-  column-gap: 10px;
   width: 100%;
 }
