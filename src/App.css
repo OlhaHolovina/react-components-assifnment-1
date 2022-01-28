@@ -26,36 +26,3 @@ html {
   column-gap: 10px;
   width: 100%;
 }
-
-.block {
-  height: 295px;
-  flex-grow: 1;
-  margin-bottom: 20px;
-  transition: border 0.5s;
-}
-
-.block:hover {
-  border-bottom: 4px solid #FFCE3B;
-}
-
-.block-header {
-  display: flex;
-}
-
-.block-header-line {
-  background: #FFCE3B;
-  width: 30%;
-}
-
-.block-header-title {
-  padding-left: 20px;
-  color: #231F20;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-@media screen and (max-width: 1200px) {
-  .block {
-    width: 400px;
-  }
-}
