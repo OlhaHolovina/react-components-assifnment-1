@@ -31,11 +31,11 @@
 }
 
 .block-red .block-header-line {
-  background: #FC3D01;
+  background: #ef073d;
 }
 
 .block.block-red:hover {
-  border-bottom: 4px solid #FC3D01;
+  border-bottom: 4px solid #ef073d;
 }
 
 .block-green .block-header-line {
